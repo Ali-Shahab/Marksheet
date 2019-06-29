@@ -1,0 +1,8 @@
+Math Marks:91.0
+Chemistry Marks:91.0
+Physics Marks:91.0
+Urdu Marks:91.0
+English Marks:91.0
+Total Marks:500.0
+Obtained Marks:455.0
+Total Percentage:91
