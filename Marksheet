@@ -1,0 +1,27 @@
+subject1=float(input("Enter Math Marks:"))
+subject2=float(input("Enter chemistry Marks:"))
+subject3=float(input("Enter physics Marks:"))
+subject4=float(input("Enter urdu Marks:"))
+subject5=float(input("Enter english Marks:")) 
+total_marks=float(input("Enter Total Marks:"))
+obtained_marks=(subject1+subject2+subject3+subject4+subject5) 
+Total_Percentage=int(obtained_marks/total_marks*100)
+if  Total_Percentage>=90:
+        print("Grade A") 
+elif Total_Percentage>=80 and Total_Percentage<90: 
+        print("Grade B") 
+elif Total_Percentage>=70 and Total_Percentage<80: 
+        print("Grade C")
+else: 
+        print("Fail")   
+print("Total Percentage:",Total_Percentage,"%")
+
+with open("Marksheet.txt", "w") as f:
+    f.write("Math Marks:" + str(subject1) + '\n')
+    f.write("Chemistry Marks:" + str(subject2) + '\n')
+    f.write("Physics Marks:" + str(subject3) + '\n')
+    f.write("Urdu Marks:" + str(subject4) + '\n')
+    f.write("English Marks:" + str(subject5) + '\n')
+    f.write("Total Marks:" + str(total_marks) + '\n')
+    f.write("Obtained Marks:" + str(obtained_marks) + '\n')
+    f.write("Total Percentage:" + str(Total_Percentage))
