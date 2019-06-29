@@ -1,3 +1,4 @@
+    
 subject1=float(input("Enter Math Marks:"))
 subject2=float(input("Enter chemistry Marks:"))
 subject3=float(input("Enter physics Marks:"))
@@ -17,11 +18,11 @@ else:
 print("Total Percentage:",Total_Percentage,"%")
 
 with open("Marksheet.txt", "w") as f:
-    f.write("Math Marks:" + str(subject1) + '\n')
-    f.write("Chemistry Marks:" + str(subject2) + '\n')
-    f.write("Physics Marks:" + str(subject3) + '\n')
-    f.write("Urdu Marks:" + str(subject4) + '\n')
-    f.write("English Marks:" + str(subject5) + '\n')
-    f.write("Total Marks:" + str(total_marks) + '\n')
-    f.write("Obtained Marks:" + str(obtained_marks) + '\n')
-    f.write("Total Percentage:" + str(Total_Percentage))
+        f.write("Math Marks:" + str(subject1) + '\n')
+        f.write("Chemistry Marks:" + str(subject2) + '\n')
+        f.write("Physics Marks:" + str(subject3) + '\n')
+        f.write("Urdu Marks:" + str(subject4) + '\n')
+        f.write("English Marks:" + str(subject5) + '\n')
+        f.write("Total Marks:" + str(total_marks) + '\n')
+        f.write("Obtained Marks:" + str(obtained_marks) + '\n')
+        f.write("Total Percentage:" + str(Total_Percentage))
